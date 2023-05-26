@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	ft "github.com/TRON-US/go-unixfs"
-	uio "github.com/TRON-US/go-unixfs/io"
+	ft "github.com/bittorrent/go-unixfs"
+	uio "github.com/bittorrent/go-unixfs/io"
 	dag "github.com/ipfs/go-merkledag"
 
 	cid "github.com/ipfs/go-cid"

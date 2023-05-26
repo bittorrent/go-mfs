@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	ft "github.com/TRON-US/go-unixfs"
+	ft "github.com/bittorrent/go-unixfs"
 	dag "github.com/ipfs/go-merkledag"
 
 	ipld "github.com/ipfs/go-ipld-format"

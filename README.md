@@ -14,16 +14,16 @@
 `go-mfs` works like a regular Go module:
 
 ```
-> go get github.com/TRON-US/go-mfs
+> go get github.com/bittorrent/go-mfs
 ```
 
 ## Usage
 
 ```
-import "github.com/TRON-US/go-mfs"
+import "github.com/bittorrent/go-mfs"
 ```
 
-Check the [GoDoc documentation](https://pkg.go.dev/github.com/TRON-US/go-mfs)
+Check the [GoDoc documentation](https://pkg.go.dev/github.com/bittorrent/go-mfs)
 
 ## Repository Structure
 This repository contains many files, all belonging to the root `mfs` package.
@@ -45,4 +45,4 @@ Small note: If editing the README, please conform to the [standard-readme](https
 
 ## License
 
-MIT © TRON-US
+MIT © Bittorrent 
