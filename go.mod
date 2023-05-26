@@ -1,8 +1,8 @@
-module github.com/TRON-US/go-mfs
+module github.com/bittorrent/go-mfs
 
 require (
-	github.com/TRON-US/go-btfs-chunker v0.3.0
-	github.com/TRON-US/go-unixfs v0.6.0
+	github.com/bittorrent/go-btfs-chunker v0.4.0
+	github.com/bittorrent/go-unixfs v0.7.0
 	github.com/ipfs/go-blockservice v0.2.1
 	github.com/ipfs/go-cid v0.3.2
 	github.com/ipfs/go-datastore v0.6.0
@@ -15,7 +15,5 @@ require (
 	github.com/ipfs/go-path v0.2.1
 	github.com/libp2p/go-libp2p-testing v0.4.0
 )
-
-replace github.com/TRON-US/go-unixfs v0.6.0 => github.com/imstevez/go-unixfs v0.7.0-pre
 
 go 1.16

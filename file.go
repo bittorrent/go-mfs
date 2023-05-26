@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sync"
 
-	ft "github.com/TRON-US/go-unixfs"
-	mod "github.com/TRON-US/go-unixfs/mod"
+	ft "github.com/bittorrent/go-unixfs"
+	mod "github.com/bittorrent/go-unixfs/mod"
 	dag "github.com/ipfs/go-merkledag"
 
-	chunker "github.com/TRON-US/go-btfs-chunker"
+	chunker "github.com/bittorrent/go-btfs-chunker"
 	ipld "github.com/ipfs/go-ipld-format"
 )
 

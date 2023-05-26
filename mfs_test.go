@@ -17,13 +17,13 @@ import (
 
 	path "github.com/ipfs/go-path"
 
-	ft "github.com/TRON-US/go-unixfs"
-	importer "github.com/TRON-US/go-unixfs/importer"
-	uio "github.com/TRON-US/go-unixfs/io"
+	ft "github.com/bittorrent/go-unixfs"
+	importer "github.com/bittorrent/go-unixfs/importer"
+	uio "github.com/bittorrent/go-unixfs/io"
 	bserv "github.com/ipfs/go-blockservice"
 	dag "github.com/ipfs/go-merkledag"
 
-	chunker "github.com/TRON-US/go-btfs-chunker"
+	chunker "github.com/bittorrent/go-btfs-chunker"
 	cid "github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
