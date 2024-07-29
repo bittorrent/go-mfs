@@ -11,7 +11,7 @@ import (
 
 	ft "github.com/bittorrent/go-unixfs"
 	uio "github.com/bittorrent/go-unixfs/io"
-	dag "github.com/ipfs/go-merkledag"
+	dag "github.com/ipfs/boxo/ipld/merkledag"
 
 	cid "github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"

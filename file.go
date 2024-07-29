@@ -7,7 +7,7 @@ import (
 
 	ft "github.com/bittorrent/go-unixfs"
 	mod "github.com/bittorrent/go-unixfs/mod"
-	dag "github.com/ipfs/go-merkledag"
+	dag "github.com/ipfs/boxo/ipld/merkledag"
 
 	chunker "github.com/bittorrent/go-btfs-chunker"
 	ipld "github.com/ipfs/go-ipld-format"
