@@ -10,7 +10,7 @@ import (
 	"time"
 
 	ft "github.com/bittorrent/go-unixfs"
-	dag "github.com/ipfs/go-merkledag"
+	dag "github.com/ipfs/boxo/ipld/merkledag"
 
 	ipld "github.com/ipfs/go-ipld-format"
 	logging "github.com/ipfs/go-log"
